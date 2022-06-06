@@ -1,5 +1,5 @@
 begin
- require_relative '../models/task'
+ require_relative '../app/models/task'
 rescue LoadError => e
   if e.message =~ /task/
     describe "Task" do
